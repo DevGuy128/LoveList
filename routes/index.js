@@ -6,10 +6,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'LoveList' });
 });
 
-router.get('/users', function(req, res, next) {
-  res.render('Users', { title: 'Users' });
-});
-
 router.get('/profile', function(req, res, next) {
   res.render('index', { title: 'Your Profile' });
 });
